@@ -6,7 +6,8 @@
 }
 .slide {
     position: absolute;
-    width: 300px;
+    /*width: 300px;*/
+    width: 70%;
     left: 0px;
     top: 0px;
     animation-name:fading;
@@ -17,6 +18,8 @@
 
 .slide img{
     object-fit: cover;
+    width: 10%;
+    height: 100%;
 }
 
 @keyframes fading {
